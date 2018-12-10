@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PersonnageFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/marcelferrius" />
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/nomPerso"
+        android:layout_width="221dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="119dp"
+        android:layout_marginStart="80dp"
+        android:text="VOICI MON NOM DEGEUX"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/profession"
+        android:layout_width="228dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/nomPerso"
+        android:layout_marginBottom="58dp"
+        android:text="VOICI MA PROFESSION"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+</RelativeLayout>
